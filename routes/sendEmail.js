@@ -18,7 +18,7 @@ router.post("/sendemail", (req, res) => {
   transporter.sendMail(email, (err) => {
     if (err) {
       console.log(err);
-      res.send({ message: err });
+      res.send({ error: err });
       return false;
     }
 
