@@ -1,8 +1,8 @@
 {
-  "name": "portfolio-server",
+  "name": "email-sender",
   "version": "1.0.0",
   "type": "module",
-  "description": "portfolio server",
+  "description": "Microservice to send a e-mail to a GMAIL mailbox",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
